@@ -1,4 +1,4 @@
-/* Simple Moodle-like theme */
+/* Simple Moodle-like theme with consistent Helvetica/Arial font */
 
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
@@ -12,25 +12,30 @@ header {
   background-color: #0b3d91;
   color: #fff;
   padding: 1rem 2rem;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 header h1 {
   font-size: 1.8rem;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 nav {
   background-color: #f0f0f0;
   padding: 0.5rem 2rem;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 nav a {
   margin-right: 1rem;
   color: #0b3d91;
   text-decoration: none;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 main {
   padding: 2rem;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .card {
@@ -39,6 +44,7 @@ main {
   margin-bottom: 1rem;
   border-radius: 4px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 button {
@@ -48,6 +54,7 @@ button {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 button:hover {
