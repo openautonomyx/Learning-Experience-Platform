@@ -21,8 +21,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Run Tests
+      - name: Run Unit and Integration Tests
         run: npm test
+
+      - name: Run End-to-End Tests
+        run: npm run test:e2e
 
       - name: Build Frontend
         run: npm run build
